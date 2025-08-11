@@ -1,5 +1,5 @@
 {
-  "name": "wet-trades-Desktop",
+  "name": "wet-trades-desktop",
   "private": true,
   "homepage": "https://Mostafa-518.github.io/wet-trade-app",
   "description": "A Vite + React + TypeScript with shadcn/ui components and Electron support.",
@@ -16,7 +16,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "tsc:electron": "tsc -p tsconfig.electron.json",
-    "electron:build": "npm run build && npm run tsc:electron && electron-builder",
+    "electron:build": "npm run build && npm run tsc:electron && electron-builder"
     },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -111,7 +111,7 @@
       "dist-electron"
     ],
     "directories": {
-      "output": "release"
+      "output": "wettrades"
     }
   }
 }

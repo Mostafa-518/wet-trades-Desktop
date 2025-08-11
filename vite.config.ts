@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "./wet-trades", // ✅ Fix asset paths for Electron
+  base: "./", // ✅ Fix asset paths for Electron
   server: {
     host: "::",
     port: 8080,
